@@ -1,0 +1,2 @@
+#!/bin/sh
+/usr/local/bro/bin/bro -C -i s1-eth4 blacklist.bro

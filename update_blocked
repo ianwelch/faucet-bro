@@ -1,0 +1,3 @@
+#!/bin/sh
+python geturl.py
+python update_acls.py

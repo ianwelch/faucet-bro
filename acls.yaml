@@ -1,0 +1,5 @@
+acls:
+  1:
+  - rule:
+      actions: {allow: 1, mirror: 4}
+version: 2

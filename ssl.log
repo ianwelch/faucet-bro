@@ -1,0 +1,27 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2016-12-16-11-29-40
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	curve	server_name	resumed	last_alert	next_protocol	established	cert_chain_fuids	client_cert_chain_fuids	subject	issuer	client_subject	client_issuer
+#types	time	string	addr	port	addr	port	string	string	string	string	bool	string	string	bool	vector[string]	vector[string]	string	string	string	string
+1258563574.338666	CDocrt1G1vpUFhqfR3	192.168.1.103	1397	192.168.1.1	25	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	F	-	-	T	FetgZr162uaF2KPsRb	(empty)	C=US,CN=domex.local	C=US,CN=domex.local	-	-
+1258565030.381357	CrSoIt9kMCQqWsUD6	192.168.1.103	1749	192.168.1.1	25	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	F	-	-	T	F0Dg393TiBWNGsxKOl	(empty)	C=US,CN=domex.local	C=US,CN=domex.local	-	-
+1258565174.994589	CqxeVR1fsPnqMZSXCa	192.168.1.103	1755	192.168.1.1	25	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	F	-	-	T	FnpK2m3N9eIkZ4CMPf	(empty)	C=US,CN=domex.local	C=US,CN=domex.local	-	-
+1258565820.461482	CWG09a3TCXCVrG8RY7	192.168.1.105	49218	192.168.1.1	25	TLSv10	TLS_RSA_WITH_AES_128_CBC_SHA	-	-	F	-	-	T	FutTprVmY01fWuY0k	(empty)	C=US,CN=domex.local	C=US,CN=domex.local	-	-
+1258565880.192994	CQiFlq3F3cwbhXnT7d	192.168.1.105	49219	192.168.1.1	25	TLSv10	TLS_RSA_WITH_AES_128_CBC_SHA	-	-	T	-	-	T	-	-	-	-	-	-
+1258566050.198796	ChysnV2A1SqTLfA0Mi	192.168.1.105	49220	192.168.1.1	25	TLSv10	TLS_RSA_WITH_AES_128_CBC_SHA	-	-	F	-	-	T	F7xIrP2tGDMtXMTXIa	(empty)	C=US,CN=domex.local	C=US,CN=domex.local	-	-
+1258566123.711407	Cz9mZe34NBT5om1RVg	192.168.1.103	1806	192.168.1.1	25	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	F	-	-	T	F62COt4jXDRRGIvLvj	(empty)	C=US,CN=domex.local	C=US,CN=domex.local	-	-
+1258567109.568637	CsdIdv3msTOz8Kdt95	192.168.1.102	1400	192.168.1.1	25	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	F	-	-	T	FDXRqW2EonC1K2dw1b	(empty)	C=US,CN=domex.local	C=US,CN=domex.local	-	-
+1258567248.336794	CjGe8h3TgmPPWdnub5	192.168.1.102	1404	192.168.1.1	25	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	F	-	-	T	FBHOuX3wpA7DHOnzV9	(empty)	C=US,CN=domex.local	C=US,CN=domex.local	-	-
+1258567289.265602	CJeotqtHX8qaHNTz5	192.168.1.102	1405	192.168.1.1	25	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	T	-	-	T	-	-	-	-	-	-
+1258567757.531952	CLZblG2Y4dozn5G042	192.168.1.105	49336	192.168.1.1	25	TLSv10	TLS_RSA_WITH_AES_128_CBC_SHA	-	-	F	-	-	T	FmqSV91YN8RRUezovf	(empty)	C=US,CN=domex.local	C=US,CN=domex.local	-	-
+1258568036.581309	C6yiIm3ejZZqurxTl1	192.168.1.105	49353	192.168.1.1	25	TLSv10	TLS_RSA_WITH_AES_128_CBC_SHA	-	-	F	-	-	T	FqLkBE4NQUd1V7WBh1	(empty)	C=US,CN=domex.local	C=US,CN=domex.local	-	-
+1258568059.132905	CFJFcR2ajdAlgc2Or5	192.168.1.103	1836	192.168.1.1	25	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	F	-	-	T	FK4DEzuAa442Tz219	(empty)	C=US,CN=domex.local	C=US,CN=domex.local	-	-
+1258568667.621738	CYcSIA2Dns1l8I2xra	192.168.1.102	1709	192.168.1.1	25	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	F	-	-	T	FvC1E64g6kexAIp202	(empty)	C=US,CN=domex.local	C=US,CN=domex.local	-	-
+1258568738.113245	CU1Aof2qyqulIA8BTh	192.168.1.105	49561	192.168.1.1	25	TLSv10	TLS_RSA_WITH_AES_128_CBC_SHA	-	-	F	-	-	T	FAAXbq2reX8vVL9Co5	(empty)	C=US,CN=domex.local	C=US,CN=domex.local	-	-
+1258581758.251918	CbnSDm3vj0ne2vAUP2	192.168.1.103	1934	192.168.1.1	25	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	F	-	-	T	FLk1OJ2hoi1nXFwZe7	(empty)	C=US,CN=domex.local	C=US,CN=domex.local	-	-
+1258582108.124149	CCEC7n1P4mjugvFLmf	192.168.1.103	2008	192.168.1.1	25	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	F	-	-	T	FB48fp3x2Z7h5I0sRg	(empty)	C=US,CN=domex.local	C=US,CN=domex.local	-	-
+1258583615.039851	Cl33Yf1Z67nexcpjs	192.168.1.102	1911	192.168.1.1	25	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	F	-	-	T	F0gWRGv5NNTRJaVob	(empty)	C=US,CN=domex.local	C=US,CN=domex.local	-	-
+#close	2016-12-16-11-29-40

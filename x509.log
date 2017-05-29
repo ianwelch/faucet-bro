@@ -1,0 +1,25 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	x509
+#open	2016-12-16-11-29-40
+#fields	ts	id	certificate.version	certificate.serial	certificate.subject	certificate.issuer	certificate.not_valid_before	certificate.not_valid_after	certificate.key_alg	certificate.sig_alg	certificate.key_type	certificate.key_length	certificate.exponent	certificate.curve	san.dns	san.uri	san.email	san.ip	basic_constraints.ca	basic_constraints.path_len
+#types	time	string	count	string	string	string	time	time	string	string	string	count	string	string	vector[string]	vector[string]	vector[string]	vector[addr]	bool	count
+1258563574.338856	FetgZr162uaF2KPsRb	3	01	C=US,CN=domex.local	C=US,CN=domex.local	1254460373.000000	1285996373.000000	rsaEncryption	sha1WithRSAEncryption	rsa	2048	65537	-	-	-	-	-	-	-
+1258565030.381533	F0Dg393TiBWNGsxKOl	3	01	C=US,CN=domex.local	C=US,CN=domex.local	1254460373.000000	1285996373.000000	rsaEncryption	sha1WithRSAEncryption	rsa	2048	65537	-	-	-	-	-	-	-
+1258565174.994767	FnpK2m3N9eIkZ4CMPf	3	01	C=US,CN=domex.local	C=US,CN=domex.local	1254460373.000000	1285996373.000000	rsaEncryption	sha1WithRSAEncryption	rsa	2048	65537	-	-	-	-	-	-	-
+1258565820.461659	FutTprVmY01fWuY0k	3	01	C=US,CN=domex.local	C=US,CN=domex.local	1254460373.000000	1285996373.000000	rsaEncryption	sha1WithRSAEncryption	rsa	2048	65537	-	-	-	-	-	-	-
+1258566050.198971	F7xIrP2tGDMtXMTXIa	3	01	C=US,CN=domex.local	C=US,CN=domex.local	1254460373.000000	1285996373.000000	rsaEncryption	sha1WithRSAEncryption	rsa	2048	65537	-	-	-	-	-	-	-
+1258566123.711573	F62COt4jXDRRGIvLvj	3	01	C=US,CN=domex.local	C=US,CN=domex.local	1254460373.000000	1285996373.000000	rsaEncryption	sha1WithRSAEncryption	rsa	2048	65537	-	-	-	-	-	-	-
+1258567109.568817	FDXRqW2EonC1K2dw1b	3	01	C=US,CN=domex.local	C=US,CN=domex.local	1254460373.000000	1285996373.000000	rsaEncryption	sha1WithRSAEncryption	rsa	2048	65537	-	-	-	-	-	-	-
+1258567248.336935	FBHOuX3wpA7DHOnzV9	3	01	C=US,CN=domex.local	C=US,CN=domex.local	1254460373.000000	1285996373.000000	rsaEncryption	sha1WithRSAEncryption	rsa	2048	65537	-	-	-	-	-	-	-
+1258567757.532132	FmqSV91YN8RRUezovf	3	01	C=US,CN=domex.local	C=US,CN=domex.local	1254460373.000000	1285996373.000000	rsaEncryption	sha1WithRSAEncryption	rsa	2048	65537	-	-	-	-	-	-	-
+1258568036.581495	FqLkBE4NQUd1V7WBh1	3	01	C=US,CN=domex.local	C=US,CN=domex.local	1254460373.000000	1285996373.000000	rsaEncryption	sha1WithRSAEncryption	rsa	2048	65537	-	-	-	-	-	-	-
+1258568059.133065	FK4DEzuAa442Tz219	3	01	C=US,CN=domex.local	C=US,CN=domex.local	1254460373.000000	1285996373.000000	rsaEncryption	sha1WithRSAEncryption	rsa	2048	65537	-	-	-	-	-	-	-
+1258568667.621911	FvC1E64g6kexAIp202	3	01	C=US,CN=domex.local	C=US,CN=domex.local	1254460373.000000	1285996373.000000	rsaEncryption	sha1WithRSAEncryption	rsa	2048	65537	-	-	-	-	-	-	-
+1258568738.113398	FAAXbq2reX8vVL9Co5	3	01	C=US,CN=domex.local	C=US,CN=domex.local	1254460373.000000	1285996373.000000	rsaEncryption	sha1WithRSAEncryption	rsa	2048	65537	-	-	-	-	-	-	-
+1258581758.252167	FLk1OJ2hoi1nXFwZe7	3	01	C=US,CN=domex.local	C=US,CN=domex.local	1254460373.000000	1285996373.000000	rsaEncryption	sha1WithRSAEncryption	rsa	2048	65537	-	-	-	-	-	-	-
+1258582108.124383	FB48fp3x2Z7h5I0sRg	3	01	C=US,CN=domex.local	C=US,CN=domex.local	1254460373.000000	1285996373.000000	rsaEncryption	sha1WithRSAEncryption	rsa	2048	65537	-	-	-	-	-	-	-
+1258583615.040031	F0gWRGv5NNTRJaVob	3	01	C=US,CN=domex.local	C=US,CN=domex.local	1254460373.000000	1285996373.000000	rsaEncryption	sha1WithRSAEncryption	rsa	2048	65537	-	-	-	-	-	-	-
+#close	2016-12-16-11-29-40

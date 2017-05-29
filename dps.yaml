@@ -1,0 +1,9 @@
+dps:
+  test-switch-1:
+    dp_id: 1
+    interfaces:
+      1: {acl_in: 1, description: Port 1, name: port1, native_vlan: 100}
+      2: {acl_in: 1, description: Port 2, name: port2, native_vlan: 100}
+      3: {acl_in: 1, description: Port 3, name: port3, native_vlan: 100}
+      4: {description: Bro Listener, name: port4, native_vlan: 100}
+      5: {acl_in: 1, description: nat, name: nat, native_vlan: 100}

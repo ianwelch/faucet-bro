@@ -1,0 +1,11 @@
+version: 2
+
+vlans:
+    100:
+        description: "Test vlan"
+        name: "test_vlan"
+             
+include:
+    - dps.yaml
+    - acls.yaml
+
